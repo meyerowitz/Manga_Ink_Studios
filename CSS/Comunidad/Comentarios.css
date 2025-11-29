@@ -1,0 +1,82 @@
+
+
+#section2{
+    height: 600px;
+    width: 800px;
+    padding: 50px 0px 190px 0px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.499);
+
+}
+
+#Contenedor2-comentarios{
+    height: 500px;
+    width: 99%;
+    margin: auto;
+    background-color: rgba(41, 41, 41, 0);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+#Contenedor2-comentarios p{
+    padding: 40px 20px 20px 20px;
+     width: 80%;
+     margin: auto;
+     font-size: 18px;
+
+}
+
+#Contenedor2-comentarios hr{
+    width: 90%;
+    margin: auto;
+    color: black;
+
+}
+
+#Redactor{
+    height: auto;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 20px;
+
+}
+
+#formulario{
+    height: auto;
+    width: 100%;
+    display: inline-flex;
+    
+
+}
+
+#Foto-perfil{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+
+
+#texto{
+    height: 100px;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+#enviar{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}

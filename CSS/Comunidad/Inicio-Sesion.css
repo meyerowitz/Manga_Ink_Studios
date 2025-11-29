@@ -1,0 +1,111 @@
+#Iniciar_Sesion_div_shadown{
+    background-color: rgba(6, 6, 0, 0.605);
+    position: fixed;
+    width:100%;
+    height:100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    opacity: 0;
+    animation: aparece 2s;
+    opacity: 1;
+
+}
+
+
+#Iniciar_Sesion_div{
+    background-color: rgba(0, 0, 0, 0.655);
+    position: fixed;
+    width: 500px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px; /* Negative half of height. */
+    margin-left: -250px; /* Negative half of width. */
+    border-radius: 25px;
+    z-index: 3;
+    opacity: 0;
+    animation: aparece 2s;
+    opacity: 1;
+
+}
+
+#Iniciar_Sesion_div2 {
+display: inline-flex;
+ background-color: rgba(165, 42, 42, 0);
+ height: 50px;
+ width: 100%;
+ border-radius: 25px;
+ }
+
+#Iniciar_Sesion_div2 h2{
+   margin-left: 36%;
+   color: white;
+   z-index: 3;
+}
+
+#removeButton{
+   width: 20px;
+   height: 20px;
+   margin: 2% 5% 7% 25%;
+   background-color: rgba(255, 255, 255, 0);
+   float: left;
+   outline:none;
+   z-index: 3;
+}
+
+#removeButton img{
+  width: 100%;
+}
+
+#Iniciar_Sesion_div3 {
+     background-color: rgba(187, 192, 35, 0);
+     height: 265px;
+     width: 100%;
+     border-radius: 25px;
+     }
+
+#Iniciar_Sesion_div3  h2{
+        color: white;
+        margin: 20px;
+}
+
+#Iniciar_Sesion_div3  input{
+   width: 90%;
+   height: 20px;
+   margin: 20px;
+}
+    
+
+#Iniciar_Sesion_div4 {
+    display: inline-flex;
+    background-color: rgba(165, 42, 42, 0);
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+#Iniciar_Sesion_div5 {
+    display: flex;
+     background-color: rgba(255, 0, 0, 0);
+     height: 30px;
+     width: 100%;
+     border-radius: 25px;
+}
+#Iniciar_Sesion_div5 a{
+    color: rgba(255, 255, 255, 0.53);
+    margin: 5px 50px 5px 50px;
+    padding: 5px 5px 6px 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#Iniciar_Sesion_div5 a:hover{
+transition: 1.5s;
+color: rgba(255, 255, 255, 0.886);
+cursor: pointer;
+}
+
